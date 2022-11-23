@@ -1,0 +1,72 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Poppins';
+}
+nav div img{
+    width: 80%;
+}
+.container{
+    margin: 50px 0px 50px 160px;
+    background-color: #ffffff;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 80px;
+    width: 900px;
+    font-size: 17px;
+}
+.list-item{
+    list-style-type: none;
+    margin: 0px 10px;
+    font-weight: 500;
+    opacity: 40%;
+}
+.list-item:nth-child(1){
+    opacity: 100%;
+}
+.nav-button{
+    padding: 15px 28px;
+    font-size: 15px;
+    border-radius: 13px;
+    border: 1px solid #5b57b6;
+    color: white;
+    background-color: #5b57b6;
+}
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+}
+.heading-text {
+  color: #3c2f60;
+  font-size: 60px;
+  flex-wrap: wrap;
+}
+span {
+  color: #5955b3;
+}
+.description {
+  opacity: 50%;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.btn{
+    padding: 20px 40px;
+}
+section div div img{
+    margin-top: 40px;
+    width: 80vh;
+}
